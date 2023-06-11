@@ -25,7 +25,6 @@ if not state.game_over:
     guess = st.text_input(f"guess a number between 1 and {HI}", key=state.game_number)
 
     if guess:
-
         try:
             guess = int(guess)
             state.num_guesses += 1
